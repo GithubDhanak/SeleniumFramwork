@@ -12,7 +12,6 @@ public class FirstMavenExampleTest
 {
 
 	WebDriver driver;
-	int x=10;
 	@Test
 	public void setUp()
 	{

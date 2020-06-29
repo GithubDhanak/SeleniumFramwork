@@ -22,6 +22,7 @@ public class FirstMavenExampleTest
 		Actions ac = new Actions(driver);
 		ac.moveToElement(accountAndList).perform();
 		driver.findElement(By.xpath("//a[@class='nav-action-button']/span[text()='Sign in']")).click();
+		System.out.println("Completed");
 		//driver.close();
 	}
 

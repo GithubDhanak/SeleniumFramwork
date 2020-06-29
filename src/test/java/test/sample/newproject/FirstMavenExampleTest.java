@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class FirstMavenExampleTest
 {
-	WebDriver driver;
+	WebDriver driver1;
 	
 	@Test
 	public void setUp()

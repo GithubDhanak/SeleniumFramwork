@@ -23,7 +23,7 @@ public class FirstMavenExampleTest
 		ac.moveToElement(accountAndList).perform();
 		driver.findElement(By.xpath("//a[@class='nav-action-button']/span[text()='Sign in']")).click();
 		System.out.println("Completed");
-		//driver.close();
+		driver.close();
 	}
 
 }
